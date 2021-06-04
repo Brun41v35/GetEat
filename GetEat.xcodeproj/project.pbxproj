@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22A266A80B100705602 /* AppDelegate.swift */; };
 		7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22C266A80B100705602 /* SceneDelegate.swift */; };
-		7E37E22F266A80B100705602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22E266A80B100705602 /* ViewController.swift */; };
-		7E37E232266A80B100705602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E230266A80B100705602 /* Main.storyboard */; };
 		7E37E234266A80B700705602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E233266A80B700705602 /* Assets.xcassets */; };
 		7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E235266A80B700705602 /* LaunchScreen.storyboard */; };
+		7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E244266A81EF00705602 /* LoginViewController.swift */; };
+		7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E245266A81EF00705602 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E37E227266A80B100705602 /* GetEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E37E22A266A80B100705602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E37E22C266A80B100705602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E37E22E266A80B100705602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E37E231266A80B100705602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E37E233266A80B700705602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E37E236266A80B700705602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E37E238266A80B700705602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E37E244266A81EF00705602 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7E37E245266A81EF00705602 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,39 @@
 		7E37E229266A80B100705602 /* GetEat */ = {
 			isa = PBXGroup;
 			children = (
-				7E37E22A266A80B100705602 /* AppDelegate.swift */,
-				7E37E22C266A80B100705602 /* SceneDelegate.swift */,
-				7E37E22E266A80B100705602 /* ViewController.swift */,
-				7E37E230266A80B100705602 /* Main.storyboard */,
-				7E37E233266A80B700705602 /* Assets.xcassets */,
-				7E37E235266A80B700705602 /* LaunchScreen.storyboard */,
+				7E37E243266A81BB00705602 /* View */,
+				7E37E240266A80F800705602 /* Supports */,
 				7E37E238266A80B700705602 /* Info.plist */,
 			);
 			path = GetEat;
+			sourceTree = "<group>";
+		};
+		7E37E240266A80F800705602 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				7E37E22A266A80B100705602 /* AppDelegate.swift */,
+				7E37E22C266A80B100705602 /* SceneDelegate.swift */,
+				7E37E233266A80B700705602 /* Assets.xcassets */,
+				7E37E235266A80B700705602 /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		7E37E243266A81BB00705602 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E37E249266A820800705602 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E37E249266A820800705602 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E37E244266A81EF00705602 /* LoginViewController.swift */,
+				7E37E245266A81EF00705602 /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +150,7 @@
 			files = (
 				7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */,
 				7E37E234266A80B700705602 /* Assets.xcassets in Resources */,
-				7E37E232266A80B100705602 /* Main.storyboard in Resources */,
+				7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E37E22F266A80B100705602 /* ViewController.swift in Sources */,
+				7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */,
 				7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */,
 				7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E37E230266A80B100705602 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E37E231266A80B100705602 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E37E235266A80B700705602 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Brunoprojects.GetEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Brunoprojects.GetEat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

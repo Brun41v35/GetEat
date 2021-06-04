@@ -15,6 +15,17 @@ class ModalViewController: UIViewController {
     @IBOutlet weak var bodyLabel: UILabel!
     @IBOutlet weak var modalButton: UIButton!
     
+    //MARK: - Variables
+    var titleModal: String?
+    var messageModal: String?
+    
+    //MARK: - Init
+    convenience init(titleModal: String, messageModal: String) {
+        self.init()
+        self.titleModal         = titleModal
+        self.messageModal       = messageModal
+    }
+  
     //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +37,7 @@ class ModalViewController: UIViewController {
         setupView()
         setupModal()
         buttonModal()
+        setMessage()
     }
     
     private func setupModal() {
@@ -35,7 +47,12 @@ class ModalViewController: UIViewController {
     private func setupView() {
         modalView.layer.cornerRadius = 10
     }
-    
+  
+    private func setMessage() {
+        titleLabel.text = titleModal
+        bodyLabel.text  = messageModal
+    }
+  
     //MARK: - Functions
     private func buttonModal() {
         modalButton.addTarget(self, action: #selector(dismissModal), for: .touchUpInside)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E010E70266A9C980014E5C2 /* ModalViewController.swift */; };
+		7E010E73266A9C980014E5C2 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E010E71266A9C980014E5C2 /* ModalViewController.xib */; };
 		7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22A266A80B100705602 /* AppDelegate.swift */; };
 		7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22C266A80B100705602 /* SceneDelegate.swift */; };
 		7E37E234266A80B700705602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E233266A80B700705602 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E010E70266A9C980014E5C2 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		7E010E71266A9C980014E5C2 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		7E37E227266A80B100705602 /* GetEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E37E22A266A80B100705602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E37E22C266A80B100705602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E010E6F266A9C7D0014E5C2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				7E010E70266A9C980014E5C2 /* ModalViewController.swift */,
+				7E010E71266A9C980014E5C2 /* ModalViewController.xib */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		7E37E21E266A80B100705602 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +90,7 @@
 		7E37E243266A81BB00705602 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7E010E6F266A9C7D0014E5C2 /* Modal */,
 				7E37E249266A820800705602 /* Login */,
 			);
 			path = View;
@@ -148,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E010E73266A9C980014E5C2 /* ModalViewController.xib in Resources */,
 				7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */,
 				7E37E234266A80B700705602 /* Assets.xcassets in Resources */,
 				7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */,
@@ -161,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */,
 				7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */,
 				7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */,
 				7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */,

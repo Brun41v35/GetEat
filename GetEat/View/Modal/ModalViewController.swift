@@ -25,7 +25,7 @@ class ModalViewController: UIViewController {
         self.titleModal         = titleModal
         self.messageModal       = messageModal
     }
-    
+  
     //MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,12 +47,12 @@ class ModalViewController: UIViewController {
     private func setupView() {
         modalView.layer.cornerRadius = 10
     }
-    
+  
     private func setMessage() {
         titleLabel.text = titleModal
         bodyLabel.text  = messageModal
     }
-    
+  
     //MARK: - Functions
     private func buttonModal() {
         modalButton.addTarget(self, action: #selector(dismissModal), for: .touchUpInside)

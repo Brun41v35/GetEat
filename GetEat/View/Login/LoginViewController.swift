@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
         
         if userName.isEmpty || password.isEmpty {
             print("You cannot login 😔")
-            let modal = ModalViewController()
+            let modal = ModalViewController(titleModal: "Alerta", messageModal: "Preencha os campos 😡")
             modal.modalPresentationStyle    = .overFullScreen
             modal.modalTransitionStyle      = .crossDissolve
             present(modal, animated: true, completion: nil)

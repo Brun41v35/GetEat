@@ -43,7 +43,9 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="TWh-Sy-5Zf"/>
                             </constraints>
-                            <state key="normal" title="OK"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" systemColor="systemBackgroundColor"/>
+                            </state>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                     <integer key="value" value="8"/>

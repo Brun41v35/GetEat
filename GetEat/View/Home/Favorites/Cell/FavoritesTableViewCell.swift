@@ -15,9 +15,8 @@ class FavoritesTableViewCell: UITableViewCell {
     @IBOutlet weak var foodImageView: UIImageView!
     
     //MARK: - Setup
-    func setupCell(foodName: String, foodImage: UIImage, typeFood: String) {
+    func setupCell(foodName: String, foodImage: UIImage) {
         foodNameLabel.text  = foodName
-        typeFoodLabel.text  = typeFood
         foodImageView.image = foodImage
     }    
 }

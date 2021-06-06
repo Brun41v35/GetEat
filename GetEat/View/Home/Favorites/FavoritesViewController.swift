@@ -83,8 +83,7 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FavoritesTableViewCell
         cell.setupCell(foodName: listFoods[indexPath.row],
-                       foodImage: listImageFoods[indexPath.row],
-                       typeFood: listTypeFoods[indexPath.row])
+                       foodImage: listImageFoods[indexPath.row])
         return cell
     }
 }

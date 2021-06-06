@@ -15,6 +15,20 @@
 		7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E235266A80B700705602 /* LaunchScreen.storyboard */; };
 		7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E244266A81EF00705602 /* LoginViewController.swift */; };
 		7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E37E245266A81EF00705602 /* LoginViewController.xib */; };
+		7E502477266B072D00913261 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E502475266B072D00913261 /* IngredientsViewController.swift */; };
+		7E502478266B072D00913261 /* IngredientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E502476266B072D00913261 /* IngredientsViewController.xib */; };
+		7E502481266B089A00913261 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E50247F266B089A00913261 /* SearchViewController.swift */; };
+		7E502482266B089A00913261 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E502480266B089A00913261 /* SearchViewController.xib */; };
+		7E502486266B08E300913261 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E502484266B08E300913261 /* FoodViewController.swift */; };
+		7E502487266B08E300913261 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E502485266B08E300913261 /* FoodViewController.xib */; };
+		7E50248B266B091400913261 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E502489266B091400913261 /* FavoritesViewController.swift */; };
+		7E50248C266B091400913261 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E50248A266B091400913261 /* FavoritesViewController.xib */; };
+		7EC52159266B1FD4001815A8 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */; };
+		7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */; };
+		7EC52166266B352A001815A8 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */; };
+		7EC52167266B352A001815A8 /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */; };
+		7EEA488E266BBBCA00C39ED0 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA488C266BBBCA00C39ED0 /* FoodDetailsViewController.swift */; };
+		7EEA488F266BBBCA00C39ED0 /* FoodDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA488D266BBBCA00C39ED0 /* FoodDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,20 @@
 		7E37E238266A80B700705602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E37E244266A81EF00705602 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7E37E245266A81EF00705602 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		7E502475266B072D00913261 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		7E502476266B072D00913261 /* IngredientsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientsViewController.xib; sourceTree = "<group>"; };
+		7E50247F266B089A00913261 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7E502480266B089A00913261 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		7E502484266B08E300913261 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		7E502485266B08E300913261 /* FoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+		7E502489266B091400913261 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		7E50248A266B091400913261 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		7EEA488C266BBBCA00C39ED0 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		7EEA488D266BBBCA00C39ED0 /* FoodDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +118,7 @@
 		7E37E243266A81BB00705602 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7E502474266B06E500913261 /* Home */,
 				7E010E6F266A9C7D0014E5C2 /* Modal */,
 				7E37E249266A820800705602 /* Login */,
 			);
@@ -103,6 +132,92 @@
 				7E37E245266A81EF00705602 /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		7E502474266B06E500913261 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E50247A266B074C00913261 /* Ingredients */,
+				7E50247B266B075800913261 /* Search */,
+				7E50247D266B076B00913261 /* Food */,
+				7E50247C266B075F00913261 /* Favorites */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E50247A266B074C00913261 /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				7E502475266B072D00913261 /* IngredientsViewController.swift */,
+				7E502476266B072D00913261 /* IngredientsViewController.xib */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+		7E50247B266B075800913261 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7E50247F266B089A00913261 /* SearchViewController.swift */,
+				7E502480266B089A00913261 /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7E50247C266B075F00913261 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				7EC52163266B3514001815A8 /* Cell */,
+				7E502489266B091400913261 /* FavoritesViewController.swift */,
+				7E50248A266B091400913261 /* FavoritesViewController.xib */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		7E50247D266B076B00913261 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA488B266BBB9C00C39ED0 /* FoodDetails */,
+				7EEA4889266BBB8900C39ED0 /* TableView */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		7EC52156266B1FA5001815A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */,
+				7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */,
+			);
+			name = Cell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7EC52163266B3514001815A8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */,
+				7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7EEA4889266BBB8900C39ED0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7EC52156266B1FA5001815A8 /* Cell */,
+				7E502484266B08E300913261 /* FoodViewController.swift */,
+				7E502485266B08E300913261 /* FoodViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		7EEA488B266BBB9C00C39ED0 /* FoodDetails */ = {
+			isa = PBXGroup;
+			children = (
+				7EEA488C266BBBCA00C39ED0 /* FoodDetailsViewController.swift */,
+				7EEA488D266BBBCA00C39ED0 /* FoodDetailsViewController.xib */,
+			);
+			path = FoodDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +277,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E502478266B072D00913261 /* IngredientsViewController.xib in Resources */,
 				7E010E73266A9C980014E5C2 /* ModalViewController.xib in Resources */,
+				7E502482266B089A00913261 /* SearchViewController.xib in Resources */,
+				7EC52167266B352A001815A8 /* FavoritesTableViewCell.xib in Resources */,
 				7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */,
 				7E37E234266A80B700705602 /* Assets.xcassets in Resources */,
 				7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */,
+				7E50248C266B091400913261 /* FavoritesViewController.xib in Resources */,
+				7E502487266B08E300913261 /* FoodViewController.xib in Resources */,
+				7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */,
+				7EEA488F266BBBCA00C39ED0 /* FoodDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +298,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E502481266B089A00913261 /* SearchViewController.swift in Sources */,
+				7E502486266B08E300913261 /* FoodViewController.swift in Sources */,
+				7E50248B266B091400913261 /* FavoritesViewController.swift in Sources */,
+				7EEA488E266BBBCA00C39ED0 /* FoodDetailsViewController.swift in Sources */,
+				7E502477266B072D00913261 /* IngredientsViewController.swift in Sources */,
 				7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */,
+				7EC52166266B352A001815A8 /* FavoritesTableViewCell.swift in Sources */,
 				7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */,
 				7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */,
 				7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */,
+				7EC52159266B1FD4001815A8 /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

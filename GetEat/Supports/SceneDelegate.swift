@@ -13,13 +13,55 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        let windowScene:UIWindowScene = scene as! UIWindowScene
-        self.window = UIWindow(windowScene: windowScene)
-        let loginViewController = LoginViewController(nibName: "LoginViewController", bundle : nil)
-        self.window!.rootViewController = loginViewController
-        self.window!.makeKeyAndVisible()
+        guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        guard let _ = (scene as? UIWindowScene) else { return }
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene         = windowScene
+        window?.rootViewController  = createTabbar()
+        window?.makeKeyAndVisible()
+    }
+    
+    private func createTabbar() -> UITabBarController {
+        let tabbar                      = UITabBarController()
+        UITabBar.appearance().tintColor = .systemRed
+        tabbar.viewControllers          = [createIngredients(),
+                                           createSearch(),
+                                           createFoods(),
+                                           createFavorite()]
+        return tabbar
+    }
+    
+    private func createIngredients() -> UINavigationController {
+        let ingredientsVC         = IngredientsViewController()
+        ingredientsVC.title       = "Ingredientes"
+        ingredientsVC.tabBarItem  = UITabBarItem(title: "Ingredientes", image: UIImage(systemName: "book.closed"), tag: 0)
+        
+        return UINavigationController(rootViewController: ingredientsVC)
+    }
+    
+    private func createSearch() -> UINavigationController {
+        let searchVC        = SearchViewController()
+        searchVC.title      = "Refeições"
+        searchVC.tabBarItem = UITabBarItem(title: "Procurar", image: UIImage(systemName: "magnifyingglass"), tag: 1)
+        
+        return UINavigationController(rootViewController: searchVC)
+        
+    }
+    
+    private func createFoods() -> UINavigationController {
+        let foodsVC         = FoodViewController()
+        foodsVC.title       = "Alimentos"
+        foodsVC.tabBarItem  = UITabBarItem(title: "Alimentos", image: UIImage(systemName: "tuningfork"), tag: 2)
+        
+        return UINavigationController(rootViewController: foodsVC)
+    }
+    
+    private func createFavorite() -> UINavigationController {
+        let favoriteVC          = FavoritesViewController()
+        favoriteVC.title        = "Favoritos"
+        favoriteVC.tabBarItem   = UITabBarItem(title: "Favoritos", image: UIImage(systemName: "heart.fill"), tag: 3)
+        
+        return UINavigationController(rootViewController: favoriteVC)
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {

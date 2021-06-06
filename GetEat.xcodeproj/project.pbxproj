@@ -23,6 +23,8 @@
 		7E502487266B08E300913261 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E502485266B08E300913261 /* FoodViewController.xib */; };
 		7E50248B266B091400913261 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E502489266B091400913261 /* FavoritesViewController.swift */; };
 		7E50248C266B091400913261 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E50248A266B091400913261 /* FavoritesViewController.xib */; };
+		7E57E008266D415F009130D1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E006266D415F009130D1 /* RegisterViewController.swift */; };
+		7E57E009266D415F009130D1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57E007266D415F009130D1 /* RegisterViewController.xib */; };
 		7EC52159266B1FD4001815A8 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */; };
 		7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */; };
 		7EC52166266B352A001815A8 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */; };
@@ -50,6 +52,8 @@
 		7E502485266B08E300913261 /* FoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
 		7E502489266B091400913261 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		7E50248A266B091400913261 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		7E57E006266D415F009130D1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7E57E007266D415F009130D1 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
 		7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
@@ -128,8 +132,8 @@
 		7E37E249266A820800705602 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				7E37E244266A81EF00705602 /* LoginViewController.swift */,
-				7E37E245266A81EF00705602 /* LoginViewController.xib */,
+				7E57E005266D414A009130D1 /* Register */,
+				7E57E004266D413E009130D1 /* Login */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -180,6 +184,24 @@
 				7EEA4889266BBB8900C39ED0 /* TableView */,
 			);
 			path = Food;
+			sourceTree = "<group>";
+		};
+		7E57E004266D413E009130D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E37E244266A81EF00705602 /* LoginViewController.swift */,
+				7E37E245266A81EF00705602 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		7E57E005266D414A009130D1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7E57E006266D415F009130D1 /* RegisterViewController.swift */,
+				7E57E007266D415F009130D1 /* RegisterViewController.xib */,
+			);
+			name = Register;
 			sourceTree = "<group>";
 		};
 		7EC52156266B1FA5001815A8 /* Cell */ = {
@@ -288,6 +310,7 @@
 				7E502487266B08E300913261 /* FoodViewController.xib in Resources */,
 				7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */,
 				7EEA488F266BBBCA00C39ED0 /* FoodDetailsViewController.xib in Resources */,
+				7E57E009266D415F009130D1 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +324,7 @@
 				7E502481266B089A00913261 /* SearchViewController.swift in Sources */,
 				7E502486266B08E300913261 /* FoodViewController.swift in Sources */,
 				7E50248B266B091400913261 /* FavoritesViewController.swift in Sources */,
+				7E57E008266D415F009130D1 /* RegisterViewController.swift in Sources */,
 				7EEA488E266BBBCA00C39ED0 /* FoodDetailsViewController.swift in Sources */,
 				7E502477266B072D00913261 /* IngredientsViewController.swift in Sources */,
 				7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */,

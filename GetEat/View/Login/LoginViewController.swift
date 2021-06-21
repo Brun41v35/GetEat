@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     //MARK: - Outlets
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var createAccountButton: UIButton!
     
     //MARK: - LifeCyle
     override func viewDidLoad() {
@@ -22,6 +23,7 @@ class LoginViewController: UIViewController {
     //MARK: - Setup
     private func setup() {
         setupTextField()
+        setupNavigationBar()
     }
     
     private func setupTextField() {
@@ -32,6 +34,10 @@ class LoginViewController: UIViewController {
         passwordTextField.layer.cornerRadius    = 8
         passwordTextField.layer.borderWidth     = 1
         passwordTextField.layer.borderColor     = UIColor.gray.cgColor
+    }
+    
+    private func setupNavigationBar() {
+        title = "Login"
     }
     
     //MARK: - Functions
@@ -48,11 +54,18 @@ class LoginViewController: UIViewController {
         } else {
             //MARK: TODO
             print("Welcome ☺️")
+            let tabbar = UITabBarController()
+            navigationController?.pushViewController(tabbar, animated: true)
         }
     }
     
     //MARK: - Actions
     @IBAction func signButtonAction(_ sender: UIButton) {
         isValidLogin()
+    }
+    
+    @IBAction func createAccountAction(_ sender: UIButton) {
+        let register = RegisterViewController()
+        navigationController?.pushViewController(register, animated: true)
     }
 }

@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="GetEat" customModuleProvider="target">
             <connections>
+                <outlet property="createAccountButton" destination="pNb-f3-iID" id="Wgk-Vz-Okd"/>
                 <outlet property="passwordTextField" destination="WsO-mB-7sm" id="PaE-G5-Lwf"/>
                 <outlet property="usernameTextField" destination="mCj-uu-JIG" id="Hlv-sH-eCn"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -27,7 +28,7 @@
                         <constraint firstAttribute="height" constant="50" id="ZwZ-Eb-dEo"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                    <state key="normal" title="Sign In">
+                    <state key="normal" title="Login">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <userDefinedRuntimeAttributes>
@@ -40,7 +41,7 @@
                     </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DJO-hB-pZk">
-                    <rect key="frame" x="16" y="290" width="382" height="110"/>
+                    <rect key="frame" x="16" y="164" width="382" height="110"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mCj-uu-JIG">
                             <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
@@ -57,45 +58,52 @@
                         </textField>
                     </subviews>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yn8-i5-Gh9">
-                    <rect key="frame" x="10" y="150" width="388" height="60"/>
-                    <string key="text">Welcome back.
-
-You've been missed!</string>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem-Vindo de volta 🥳" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yn8-i5-Gh9">
+                    <rect key="frame" x="10" y="64" width="388" height="20"/>
                     <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PvN-tW-DuT">
-                    <rect key="frame" x="0.0" y="44" width="414" height="96"/>
-                    <items>
-                        <navigationItem title="Let's sign you in" id="wVh-DQ-2wH"/>
-                    </items>
-                </navigationBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNb-f3-iID">
+                    <rect key="frame" x="16" y="712" width="382" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.55508291484504346" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="59w-yp-3Fl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <state key="normal" title="Criar conta">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="createAccountAction:" destination="-1" eventType="touchUpInside" id="POO-Pn-LAf"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemRedColor"/>
             <constraints>
                 <constraint firstItem="Yn8-i5-Gh9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="4Zz-sy-l1D"/>
-                <constraint firstItem="PvN-tW-DuT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AvR-Zb-5e4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gKb-TY-Mhk" secondAttribute="bottom" constant="30" id="DO6-Y4-2LC"/>
-                <constraint firstItem="Yn8-i5-Gh9" firstAttribute="top" secondItem="PvN-tW-DuT" secondAttribute="bottom" constant="10" id="LWc-Rl-Avx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pNb-f3-iID" secondAttribute="trailing" constant="16" id="MMY-ga-Iqv"/>
+                <constraint firstItem="Yn8-i5-Gh9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="PA7-Jt-VYV"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Yn8-i5-Gh9" secondAttribute="trailing" constant="16" id="RGb-ZK-6pY"/>
-                <constraint firstItem="PvN-tW-DuT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="SHS-6R-gpd"/>
                 <constraint firstItem="gKb-TY-Mhk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="TPw-uu-ghO"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DJO-hB-pZk" secondAttribute="trailing" constant="16" id="Vfa-gR-ybu"/>
+                <constraint firstItem="gKb-TY-Mhk" firstAttribute="top" secondItem="pNb-f3-iID" secondAttribute="bottom" constant="20" id="axR-YA-5i5"/>
                 <constraint firstItem="DJO-hB-pZk" firstAttribute="top" secondItem="Yn8-i5-Gh9" secondAttribute="bottom" constant="80" id="dVF-ic-EpK"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gKb-TY-Mhk" secondAttribute="trailing" constant="16" id="ezZ-YR-Rrc"/>
                 <constraint firstItem="DJO-hB-pZk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="jrX-iL-JOS"/>
-                <constraint firstItem="PvN-tW-DuT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tJv-Fa-EtU"/>
+                <constraint firstItem="pNb-f3-iID" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="qE0-XL-lsD"/>
             </constraints>
-            <point key="canvasLocation" x="84.375" y="45.422535211267608"/>
+            <point key="canvasLocation" x="84.057971014492765" y="44.866071428571423"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

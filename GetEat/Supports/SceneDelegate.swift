@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lottie
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
@@ -18,13 +19,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene         = windowScene
-        window?.rootViewController  = UINavigationController(rootViewController: login)
+        window?.rootViewController  = createIngredients()
         window?.makeKeyAndVisible()
     }
     
     private func createTabbar() -> UITabBarController {
-        let tabbar                      = UITabBarController()
-        UITabBar.appearance().tintColor = .systemRed
+        let tabbar = UITabBarController()
+        UITabBar.appearance().barTintColor = UIColor(red: 0.12, green: 0.13, blue: 0.15, alpha: 1.00)
+        UITabBar.appearance().tintColor = .systemOrange
         tabbar.viewControllers          = [createIngredients(),
                                            createSearch(),
                                            createFoods(),

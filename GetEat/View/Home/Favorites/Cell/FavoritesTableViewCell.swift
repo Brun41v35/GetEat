@@ -13,10 +13,12 @@ class FavoritesTableViewCell: UITableViewCell {
     @IBOutlet weak var foodNameLabel: UILabel!
     @IBOutlet weak var typeFoodLabel: UILabel!
     @IBOutlet weak var foodImageView: UIImageView!
+    @IBOutlet weak var cellView: UIView!
     
     //MARK: - Setup
-    func setupCell(foodName: String, foodImage: UIImage) {
+    func setupCell(foodName: String, foodBody: String, foodImage: UIImage) {
         foodNameLabel.text  = foodName
         foodImageView.image = foodImage
+        typeFoodLabel.text  = foodBody
     }    
 }

@@ -37,8 +37,7 @@ class LoginViewController: UIViewController {
     }
     
     private func setupNavigationBar() {
-        navigationController?.navigationBar.prefersLargeTitles = true
-        title = "GetEat 😋"
+        title = "Login"
     }
     
     //MARK: - Functions
@@ -55,6 +54,8 @@ class LoginViewController: UIViewController {
         } else {
             //MARK: TODO
             print("Welcome ☺️")
+            let tabbar = UITabBarController()
+            navigationController?.pushViewController(tabbar, animated: true)
         }
     }
     

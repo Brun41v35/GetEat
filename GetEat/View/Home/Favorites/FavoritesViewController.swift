@@ -45,10 +45,15 @@ class FavoritesViewController: UIViewController {
         setupNavigationBar()
         setupTableView()
         setupSearch()
+        setupNavigationBar()
     }
     
     private func setupNavigationBar() {
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.barTintColor = UIColor(red: 0.12, green: 0.13, blue: 0.15, alpha: 1.00)
+        navigationController?.navigationBar.largeTitleTextAttributes = [
+            NSAttributedString.Key.foregroundColor : UIColor.white
+        ]
     }
     
     private func setupTableView() {
@@ -83,6 +88,7 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FavoritesTableViewCell
         cell.setupCell(foodName: listFoods[indexPath.row],
+                       foodBody: listTypeFoods[indexPath.row],
                        foodImage: listImageFoods[indexPath.row])
         return cell
     }

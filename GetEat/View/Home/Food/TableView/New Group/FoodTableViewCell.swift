@@ -13,6 +13,7 @@ class FoodTableViewCell: UITableViewCell {
     @IBOutlet weak var foodImageView: UIImageView!
     @IBOutlet weak var foodNameLabel: UILabel!
     @IBOutlet weak var typeFoodLabel: UILabel!
+    @IBOutlet weak var cellView: UIView!
     
     //MARK: - Functions
     func setupCell(foodName: String, typeFood: String, imageFood: UIImage) {

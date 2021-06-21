@@ -3,10 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1987C0267EA43B00C2D26E /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E1987BF267EA43B00C2D26E /* food.json */; };
+		3E1987C4267EBD1400C2D26E /* GeneratedFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1987C2267EBD1400C2D26E /* GeneratedFoodViewController.swift */; };
+		3E1987C5267EBD1400C2D26E /* GeneratedFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1987C3267EBD1400C2D26E /* GeneratedFoodViewController.xib */; };
+		3E2470A9267F009600A5707F /* GEButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2470A8267F009600A5707F /* GEButton.swift */; };
+		3E9983D226800174008E0546 /* carousel.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E9983D126800174008E0546 /* carousel.json */; };
+		3EBE4CA8267FCA7600208094 /* GeneratedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE4CA6267FCA7600208094 /* GeneratedTableViewCell.swift */; };
+		3EBE4CA9267FCA7600208094 /* GeneratedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE4CA7267FCA7600208094 /* GeneratedTableViewCell.xib */; };
+		3ED60E15267FEA12000CEBE4 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60E14267FEA12000CEBE4 /* animation.json */; };
+		3EF0B125267F894E00B9011C /* TypeFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0B123267F894E00B9011C /* TypeFoodViewController.swift */; };
+		3EF0B126267F894E00B9011C /* TypeFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0B124267F894E00B9011C /* TypeFoodViewController.xib */; };
+		3EF0B12B267F8A9E00B9011C /* TypeFoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF0B129267F8A9E00B9011C /* TypeFoodCollectionViewCell.swift */; };
+		3EF0B12C267F8A9E00B9011C /* TypeFoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF0B12A267F8A9E00B9011C /* TypeFoodCollectionViewCell.xib */; };
+		3EF21FAF267FE24300CA25EA /* FoodSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF21FAD267FE24300CA25EA /* FoodSelectedViewController.swift */; };
+		3EF21FB0267FE24300CA25EA /* FoodSelectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF21FAE267FE24300CA25EA /* FoodSelectedViewController.xib */; };
 		7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E010E70266A9C980014E5C2 /* ModalViewController.swift */; };
 		7E010E73266A9C980014E5C2 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E010E71266A9C980014E5C2 /* ModalViewController.xib */; };
 		7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37E22A266A80B100705602 /* AppDelegate.swift */; };
@@ -25,15 +39,36 @@
 		7E50248C266B091400913261 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E50248A266B091400913261 /* FavoritesViewController.xib */; };
 		7E57E008266D415F009130D1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E006266D415F009130D1 /* RegisterViewController.swift */; };
 		7E57E009266D415F009130D1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57E007266D415F009130D1 /* RegisterViewController.xib */; };
+		7E57E010266D7AD6009130D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57E00E266D7AD6009130D1 /* WebViewController.swift */; };
+		7E57E011266D7AD6009130D1 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E57E00F266D7AD6009130D1 /* WebViewController.xib */; };
 		7EC52159266B1FD4001815A8 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */; };
 		7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */; };
 		7EC52166266B352A001815A8 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */; };
 		7EC52167266B352A001815A8 /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */; };
+		7EE0A7862677FA0F00427009 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0A7852677FA0E00427009 /* Food.swift */; };
+		7EE0A78A2677FAEF00427009 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE0A7892677FAEF00427009 /* Network.swift */; };
 		7EEA488E266BBBCA00C39ED0 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEA488C266BBBCA00C39ED0 /* FoodDetailsViewController.swift */; };
 		7EEA488F266BBBCA00C39ED0 /* FoodDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEA488D266BBBCA00C39ED0 /* FoodDetailsViewController.xib */; };
+		CE013050E3F1E3E6AA022CCC /* Pods_GetEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470A7D96B2A0E55547442A6A /* Pods_GetEat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1987BF267EA43B00C2D26E /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		3E1987C2267EBD1400C2D26E /* GeneratedFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedFoodViewController.swift; sourceTree = "<group>"; };
+		3E1987C3267EBD1400C2D26E /* GeneratedFoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneratedFoodViewController.xib; sourceTree = "<group>"; };
+		3E2470A8267F009600A5707F /* GEButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEButton.swift; sourceTree = "<group>"; };
+		3E9983D126800174008E0546 /* carousel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carousel.json; sourceTree = "<group>"; };
+		3EBE4CA6267FCA7600208094 /* GeneratedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedTableViewCell.swift; sourceTree = "<group>"; };
+		3EBE4CA7267FCA7600208094 /* GeneratedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneratedTableViewCell.xib; sourceTree = "<group>"; };
+		3ED60E14267FEA12000CEBE4 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		3EF0B123267F894E00B9011C /* TypeFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeFoodViewController.swift; sourceTree = "<group>"; };
+		3EF0B124267F894E00B9011C /* TypeFoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeFoodViewController.xib; sourceTree = "<group>"; };
+		3EF0B129267F8A9E00B9011C /* TypeFoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeFoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		3EF0B12A267F8A9E00B9011C /* TypeFoodCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeFoodCollectionViewCell.xib; sourceTree = "<group>"; };
+		3EF21FAD267FE24300CA25EA /* FoodSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSelectedViewController.swift; sourceTree = "<group>"; };
+		3EF21FAE267FE24300CA25EA /* FoodSelectedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodSelectedViewController.xib; sourceTree = "<group>"; };
+		470A7D96B2A0E55547442A6A /* Pods_GetEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529D3C78724F7D6A1AB8A4DB /* Pods-GetEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetEat.release.xcconfig"; path = "Target Support Files/Pods-GetEat/Pods-GetEat.release.xcconfig"; sourceTree = "<group>"; };
 		7E010E70266A9C980014E5C2 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		7E010E71266A9C980014E5C2 /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		7E37E227266A80B100705602 /* GetEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,12 +89,17 @@
 		7E50248A266B091400913261 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
 		7E57E006266D415F009130D1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7E57E007266D415F009130D1 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		7E57E00E266D7AD6009130D1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7E57E00F266D7AD6009130D1 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		7EC52157266B1FD2001815A8 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		7EC52158266B1FD2001815A8 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
 		7EC52164266B352A001815A8 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		7EE0A7852677FA0E00427009 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		7EE0A7892677FAEF00427009 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		7EEA488C266BBBCA00C39ED0 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
 		7EEA488D266BBBCA00C39ED0 /* FoodDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailsViewController.xib; sourceTree = "<group>"; };
+		91AC95E4DF3C4DAFBA0F7354 /* Pods-GetEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetEat.debug.xcconfig"; path = "Target Support Files/Pods-GetEat/Pods-GetEat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +107,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE013050E3F1E3E6AA022CCC /* Pods_GetEat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2470A7267F004C00A5707F /* ViewCustomization */ = {
+			isa = PBXGroup;
+			children = (
+				3E2470A8267F009600A5707F /* GEButton.swift */,
+			);
+			path = ViewCustomization;
+			sourceTree = "<group>";
+		};
+		3EBE4CA5267FCA4200208094 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE4CA6267FCA7600208094 /* GeneratedTableViewCell.swift */,
+				3EBE4CA7267FCA7600208094 /* GeneratedTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		3EF0B128267F8A7C00B9011C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3EF0B129267F8A9E00B9011C /* TypeFoodCollectionViewCell.swift */,
+				3EF0B12A267F8A9E00B9011C /* TypeFoodCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		781D4FB6796FAC9595870790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				470A7D96B2A0E55547442A6A /* Pods_GetEat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E010E6F266A9C7D0014E5C2 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +162,8 @@
 			children = (
 				7E37E229266A80B100705602 /* GetEat */,
 				7E37E228266A80B100705602 /* Products */,
+				9087BDF852004673DD017070 /* Pods */,
+				781D4FB6796FAC9595870790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +199,13 @@
 		7E37E243266A81BB00705602 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3E1987BF267EA43B00C2D26E /* food.json */,
+				3E9983D126800174008E0546 /* carousel.json */,
+				3ED60E14267FEA12000CEBE4 /* animation.json */,
+				3E2470A7267F004C00A5707F /* ViewCustomization */,
+				7EE0A7882677FAD900427009 /* Network */,
+				7EE0A7842677F9FA00427009 /* Model */,
+				7E57E00D266D7A3F009130D1 /* WebView */,
 				7E502474266B06E500913261 /* Home */,
 				7E010E6F266A9C7D0014E5C2 /* Modal */,
 				7E37E249266A820800705602 /* Login */,
@@ -152,8 +236,13 @@
 		7E50247A266B074C00913261 /* Ingredients */ = {
 			isa = PBXGroup;
 			children = (
+				3EBE4CA5267FCA4200208094 /* cell */,
 				7E502475266B072D00913261 /* IngredientsViewController.swift */,
 				7E502476266B072D00913261 /* IngredientsViewController.xib */,
+				3E1987C2267EBD1400C2D26E /* GeneratedFoodViewController.swift */,
+				3E1987C3267EBD1400C2D26E /* GeneratedFoodViewController.xib */,
+				3EF21FAD267FE24300CA25EA /* FoodSelectedViewController.swift */,
+				3EF21FAE267FE24300CA25EA /* FoodSelectedViewController.xib */,
 			);
 			path = Ingredients;
 			sourceTree = "<group>";
@@ -161,8 +250,11 @@
 		7E50247B266B075800913261 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				3EF0B128267F8A7C00B9011C /* Cell */,
 				7E50247F266B089A00913261 /* SearchViewController.swift */,
 				7E502480266B089A00913261 /* SearchViewController.xib */,
+				3EF0B123267F894E00B9011C /* TypeFoodViewController.swift */,
+				3EF0B124267F894E00B9011C /* TypeFoodViewController.xib */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -204,6 +296,15 @@
 			name = Register;
 			sourceTree = "<group>";
 		};
+		7E57E00D266D7A3F009130D1 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				7E57E00E266D7AD6009130D1 /* WebViewController.swift */,
+				7E57E00F266D7AD6009130D1 /* WebViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		7EC52156266B1FA5001815A8 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +322,22 @@
 				7EC52165266B352A001815A8 /* FavoritesTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		7EE0A7842677F9FA00427009 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EE0A7852677FA0E00427009 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EE0A7882677FAD900427009 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7EE0A7892677FAEF00427009 /* Network.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		7EEA4889266BBB8900C39ED0 /* TableView */ = {
@@ -242,6 +359,15 @@
 			path = FoodDetails;
 			sourceTree = "<group>";
 		};
+		9087BDF852004673DD017070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91AC95E4DF3C4DAFBA0F7354 /* Pods-GetEat.debug.xcconfig */,
+				529D3C78724F7D6A1AB8A4DB /* Pods-GetEat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,9 +375,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E37E23B266A80B700705602 /* Build configuration list for PBXNativeTarget "GetEat" */;
 			buildPhases = (
+				E9C64FAED199D0089BA48974 /* [CP] Check Pods Manifest.lock */,
 				7E37E223266A80B100705602 /* Sources */,
 				7E37E224266A80B100705602 /* Frameworks */,
 				7E37E225266A80B100705602 /* Resources */,
+				D5DCC7865032FD7716D52D45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,15 +428,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E502478266B072D00913261 /* IngredientsViewController.xib in Resources */,
+				3E1987C0267EA43B00C2D26E /* food.json in Resources */,
 				7E010E73266A9C980014E5C2 /* ModalViewController.xib in Resources */,
+				3EF21FB0267FE24300CA25EA /* FoodSelectedViewController.xib in Resources */,
 				7E502482266B089A00913261 /* SearchViewController.xib in Resources */,
+				3EF0B126267F894E00B9011C /* TypeFoodViewController.xib in Resources */,
+				3ED60E15267FEA12000CEBE4 /* animation.json in Resources */,
+				7E57E011266D7AD6009130D1 /* WebViewController.xib in Resources */,
 				7EC52167266B352A001815A8 /* FavoritesTableViewCell.xib in Resources */,
 				7E37E237266A80B700705602 /* LaunchScreen.storyboard in Resources */,
+				3E1987C5267EBD1400C2D26E /* GeneratedFoodViewController.xib in Resources */,
+				3EF0B12C267F8A9E00B9011C /* TypeFoodCollectionViewCell.xib in Resources */,
 				7E37E234266A80B700705602 /* Assets.xcassets in Resources */,
 				7E37E247266A81EF00705602 /* LoginViewController.xib in Resources */,
 				7E50248C266B091400913261 /* FavoritesViewController.xib in Resources */,
+				3E9983D226800174008E0546 /* carousel.json in Resources */,
 				7E502487266B08E300913261 /* FoodViewController.xib in Resources */,
 				7EC5215A266B1FD4001815A8 /* FoodTableViewCell.xib in Resources */,
+				3EBE4CA9267FCA7600208094 /* GeneratedTableViewCell.xib in Resources */,
 				7EEA488F266BBBCA00C39ED0 /* FoodDetailsViewController.xib in Resources */,
 				7E57E009266D415F009130D1 /* RegisterViewController.xib in Resources */,
 			);
@@ -316,22 +453,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D5DCC7865032FD7716D52D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetEat/Pods-GetEat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetEat/Pods-GetEat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetEat/Pods-GetEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C64FAED199D0089BA48974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E37E223266A80B100705602 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E502481266B089A00913261 /* SearchViewController.swift in Sources */,
+				3EBE4CA8267FCA7600208094 /* GeneratedTableViewCell.swift in Sources */,
 				7E502486266B08E300913261 /* FoodViewController.swift in Sources */,
+				3EF0B12B267F8A9E00B9011C /* TypeFoodCollectionViewCell.swift in Sources */,
 				7E50248B266B091400913261 /* FavoritesViewController.swift in Sources */,
 				7E57E008266D415F009130D1 /* RegisterViewController.swift in Sources */,
 				7EEA488E266BBBCA00C39ED0 /* FoodDetailsViewController.swift in Sources */,
+				3E2470A9267F009600A5707F /* GEButton.swift in Sources */,
+				3EF0B125267F894E00B9011C /* TypeFoodViewController.swift in Sources */,
+				7EE0A78A2677FAEF00427009 /* Network.swift in Sources */,
+				3E1987C4267EBD1400C2D26E /* GeneratedFoodViewController.swift in Sources */,
 				7E502477266B072D00913261 /* IngredientsViewController.swift in Sources */,
 				7E010E72266A9C980014E5C2 /* ModalViewController.swift in Sources */,
+				7EE0A7862677FA0F00427009 /* Food.swift in Sources */,
 				7EC52166266B352A001815A8 /* FavoritesTableViewCell.swift in Sources */,
 				7E37E246266A81EF00705602 /* LoginViewController.swift in Sources */,
 				7E37E22B266A80B100705602 /* AppDelegate.swift in Sources */,
 				7E37E22D266A80B100705602 /* SceneDelegate.swift in Sources */,
+				3EF21FAF267FE24300CA25EA /* FoodSelectedViewController.swift in Sources */,
+				7E57E010266D7AD6009130D1 /* WebViewController.swift in Sources */,
 				7EC52159266B1FD4001815A8 /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +656,7 @@
 		};
 		7E37E23C266A80B700705602 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AC95E4DF3C4DAFBA0F7354 /* Pods-GetEat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +676,7 @@
 		};
 		7E37E23D266A80B700705602 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529D3C78724F7D6A1AB8A4DB /* Pods-GetEat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
